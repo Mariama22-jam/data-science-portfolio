@@ -46,4 +46,4 @@ make all         # full runs that regenerate every results/ folder
 
 ## Contact
 
-CV: *link to CV*  ·  Email: *your email*
+Email: [jammehmariama657@gmail.com](mailto:jammehmariama657@gmail.com)
