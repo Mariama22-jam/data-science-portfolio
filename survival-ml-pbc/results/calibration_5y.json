@@ -3,31 +3,31 @@
     {
       "group": 0,
       "n": 63,
-      "predicted_risk": 0.03088963368945421,
+      "predicted_risk": 0.030889633689454205,
       "observed_risk": 0.016129032258064502
     },
     {
       "group": 1,
       "n": 62,
-      "predicted_risk": 0.07762598250469604,
+      "predicted_risk": 0.07762598250469609,
       "observed_risk": 0.05241935483870963
     },
     {
       "group": 2,
       "n": 62,
-      "predicted_risk": 0.16822230049051465,
+      "predicted_risk": 0.16822230049051462,
       "observed_risk": 0.1664342408933085
     },
     {
       "group": 3,
       "n": 62,
-      "predicted_risk": 0.37885107617781333,
+      "predicted_risk": 0.37885107617781344,
       "observed_risk": 0.4251271651548718
     },
     {
       "group": 4,
       "n": 63,
-      "predicted_risk": 0.8326620591806553,
+      "predicted_risk": 0.8326620591806555,
       "observed_risk": 0.7922077922077922
     }
   ],
@@ -59,7 +59,7 @@
     {
       "group": 4,
       "n": 63,
-      "predicted_risk": 0.5391826570445059,
+      "predicted_risk": 0.5391826570445057,
       "observed_risk": 0.8118071302595115
     }
   ],
@@ -67,31 +67,31 @@
     {
       "group": 0,
       "n": 63,
-      "predicted_risk": 0.052809627146344434,
+      "predicted_risk": 0.05280962714634442,
       "observed_risk": 0.032275132275132234
     },
     {
       "group": 1,
       "n": 62,
-      "predicted_risk": 0.10548605444974063,
+      "predicted_risk": 0.1054860544497406,
       "observed_risk": 0.03706245710363765
     },
     {
       "group": 2,
       "n": 62,
-      "predicted_risk": 0.194870937830553,
+      "predicted_risk": 0.19487093783055298,
       "observed_risk": 0.1441421483014219
     },
     {
       "group": 3,
       "n": 62,
-      "predicted_risk": 0.3849937701640637,
+      "predicted_risk": 0.3849937701640635,
       "observed_risk": 0.4469310220154932
     },
     {
       "group": 4,
       "n": 63,
-      "predicted_risk": 0.7908573295781066,
+      "predicted_risk": 0.7908573295781065,
       "observed_risk": 0.7985827664399093
     }
   ],
@@ -117,7 +117,7 @@
     {
       "group": 3,
       "n": 62,
-      "predicted_risk": 0.3869627674521931,
+      "predicted_risk": 0.38696276745219305,
       "observed_risk": 0.48192885445108224
     },
     {
@@ -131,31 +131,31 @@
     {
       "group": 0,
       "n": 63,
-      "predicted_risk": 0.05738904488543572,
+      "predicted_risk": 0.05738904488543571,
       "observed_risk": 0.032275132275132234
     },
     {
       "group": 1,
       "n": 62,
-      "predicted_risk": 0.10693680267830342,
+      "predicted_risk": 0.10693680267830345,
       "observed_risk": 0.03706245710363765
     },
     {
       "group": 2,
       "n": 62,
-      "predicted_risk": 0.1960331144792344,
+      "predicted_risk": 0.19603311447923447,
       "observed_risk": 0.12239972824227507
     },
     {
       "group": 3,
       "n": 62,
-      "predicted_risk": 0.3830601397936516,
+      "predicted_risk": 0.38306013979365167,
       "observed_risk": 0.4847008049230649
     },
     {
       "group": 4,
       "n": 63,
-      "predicted_risk": 0.7838650403287324,
+      "predicted_risk": 0.7838650403287325,
       "observed_risk": 0.7780526351954924
     }
   ],
@@ -163,32 +163,32 @@
     {
       "group": 0,
       "n": 63,
-      "predicted_risk": 0.05319493586911163,
+      "predicted_risk": 0.05324746446250367,
       "observed_risk": 0.03174603174603163
     },
     {
       "group": 1,
       "n": 62,
-      "predicted_risk": 0.08756975580343992,
-      "observed_risk": 0.09320260264772895
+      "predicted_risk": 0.08752917828283703,
+      "observed_risk": 0.09194786123997167
     },
     {
       "group": 2,
       "n": 62,
-      "predicted_risk": 0.16358518236552622,
+      "predicted_risk": 0.1635012260024834,
       "observed_risk": 0.09423986164944032
     },
     {
       "group": 3,
       "n": 62,
-      "predicted_risk": 0.44664109208805275,
-      "observed_risk": 0.4973868276726928
+      "predicted_risk": 0.4464636203705397,
+      "observed_risk": 0.4788507123389282
     },
     {
       "group": 4,
       "n": 63,
-      "predicted_risk": 0.8833436471596808,
-      "observed_risk": 0.7493734335839599
+      "predicted_risk": 0.8840184503517179,
+      "observed_risk": 0.7662913218468774
     }
   ],
   "Random survival forest": [
