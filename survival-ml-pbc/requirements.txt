@@ -1,0 +1,10 @@
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+scikit-survival==0.28.0
+lifelines==0.30.3
+pyreadr==0.5.9
+joblib==1.6.0
+matplotlib==3.11.2
+pytest==9.1.1

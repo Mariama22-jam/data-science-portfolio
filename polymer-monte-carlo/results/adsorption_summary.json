@@ -1,0 +1,42 @@
+{
+  "eps_c_from_crossings": [
+    0.2825615747669286,
+    0.2867892532112517,
+    0.27729136086038814,
+    0.2805562279829149
+  ],
+  "eps_c_estimate": 0.28179960420537087,
+  "specific_heat_peak_eps": {
+    "25": 0.64,
+    "50": 0.56,
+    "100": 0.48,
+    "200": 0.56,
+    "400": 0.6
+  },
+  "eps_c_literature_range": [
+    0.28,
+    0.29
+  ],
+  "min_swap_acceptance": {
+    "25_upright": 0.8728,
+    "25_flat": 0.871,
+    "50_upright": 0.7962,
+    "50_flat": 0.7954,
+    "100_upright": 0.6892,
+    "100_flat": 0.676,
+    "200_upright": 0.5518,
+    "200_flat": 0.5358,
+    "400_upright": 0.3721,
+    "400_flat": 0.3275
+  },
+  "convergence_max_start_gap_by_N": {
+    "25": 0.007205333333333397,
+    "50": 0.008703999999999934,
+    "100": 0.018460000000000032,
+    "200": 0.01863733333333331,
+    "400": 0.01928933333333338
+  },
+  "method": "replica exchange over eps (parallel tempering)",
+  "crossover_exponent_assumed": 0.5,
+  "quick_mode": false
+}

@@ -1,0 +1,43 @@
+# Runs on every push and pull request: unit tests + a quick smoke run of each project.
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: ${{ matrix.project }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - project: survival-ml-pbc
+            quick: python src/run.py --quick --jobs 2
+          - project: polymer-monte-carlo
+            quick: python scripts/run_free_chain.py --quick && python scripts/run_adsorption.py --quick
+          - project: heart-failure-ml
+            quick: python src/run.py --quick --jobs 2
+    defaults:
+      run:
+        working-directory: ${{ matrix.project }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: ${{ matrix.project }}/requirements.txt
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m pytest -q
+      - name: Quick smoke run (results are not committed)
+        run: ${{ matrix.quick }}
+      - name: Upload smoke-run outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: quick-results-${{ matrix.project }}
+          path: ${{ matrix.project }}/results

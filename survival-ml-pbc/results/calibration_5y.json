@@ -1,0 +1,226 @@
+{
+  "Cox PH": [
+    {
+      "group": 0,
+      "n": 63,
+      "predicted_risk": 0.03088963368945421,
+      "observed_risk": 0.016129032258064502
+    },
+    {
+      "group": 1,
+      "n": 62,
+      "predicted_risk": 0.07762598250469604,
+      "observed_risk": 0.05241935483870963
+    },
+    {
+      "group": 2,
+      "n": 62,
+      "predicted_risk": 0.16822230049051465,
+      "observed_risk": 0.1664342408933085
+    },
+    {
+      "group": 3,
+      "n": 62,
+      "predicted_risk": 0.37885107617781333,
+      "observed_risk": 0.4251271651548718
+    },
+    {
+      "group": 4,
+      "n": 63,
+      "predicted_risk": 0.8326620591806553,
+      "observed_risk": 0.7922077922077922
+    }
+  ],
+  "Ridge Cox": [
+    {
+      "group": 0,
+      "n": 63,
+      "predicted_risk": 0.17601103669739648,
+      "observed_risk": 0.0
+    },
+    {
+      "group": 1,
+      "n": 62,
+      "predicted_risk": 0.23555132255271544,
+      "observed_risk": 0.08904692082111454
+    },
+    {
+      "group": 2,
+      "n": 62,
+      "predicted_risk": 0.2873893025425489,
+      "observed_risk": 0.1474635278514589
+    },
+    {
+      "group": 3,
+      "n": 62,
+      "predicted_risk": 0.3516685459897709,
+      "observed_risk": 0.40606470263077965
+    },
+    {
+      "group": 4,
+      "n": 63,
+      "predicted_risk": 0.5391826570445059,
+      "observed_risk": 0.8118071302595115
+    }
+  ],
+  "LASSO Cox": [
+    {
+      "group": 0,
+      "n": 63,
+      "predicted_risk": 0.052809627146344434,
+      "observed_risk": 0.032275132275132234
+    },
+    {
+      "group": 1,
+      "n": 62,
+      "predicted_risk": 0.10548605444974063,
+      "observed_risk": 0.03706245710363765
+    },
+    {
+      "group": 2,
+      "n": 62,
+      "predicted_risk": 0.194870937830553,
+      "observed_risk": 0.1441421483014219
+    },
+    {
+      "group": 3,
+      "n": 62,
+      "predicted_risk": 0.3849937701640637,
+      "observed_risk": 0.4469310220154932
+    },
+    {
+      "group": 4,
+      "n": 63,
+      "predicted_risk": 0.7908573295781066,
+      "observed_risk": 0.7985827664399093
+    }
+  ],
+  "Elastic-net Cox": [
+    {
+      "group": 0,
+      "n": 63,
+      "predicted_risk": 0.06816265597898045,
+      "observed_risk": 0.032275132275132234
+    },
+    {
+      "group": 1,
+      "n": 62,
+      "predicted_risk": 0.12085072897720343,
+      "observed_risk": 0.03706245710363765
+    },
+    {
+      "group": 2,
+      "n": 62,
+      "predicted_risk": 0.21199660881745724,
+      "observed_risk": 0.12073824826130164
+    },
+    {
+      "group": 3,
+      "n": 62,
+      "predicted_risk": 0.3869627674521931,
+      "observed_risk": 0.48192885445108224
+    },
+    {
+      "group": 4,
+      "n": 63,
+      "predicted_risk": 0.7676286676686266,
+      "observed_risk": 0.7887154861944778
+    }
+  ],
+  "Componentwise boosting (CoxBoost-like)": [
+    {
+      "group": 0,
+      "n": 63,
+      "predicted_risk": 0.05738904488543572,
+      "observed_risk": 0.032275132275132234
+    },
+    {
+      "group": 1,
+      "n": 62,
+      "predicted_risk": 0.10693680267830342,
+      "observed_risk": 0.03706245710363765
+    },
+    {
+      "group": 2,
+      "n": 62,
+      "predicted_risk": 0.1960331144792344,
+      "observed_risk": 0.12239972824227507
+    },
+    {
+      "group": 3,
+      "n": 62,
+      "predicted_risk": 0.3830601397936516,
+      "observed_risk": 0.4847008049230649
+    },
+    {
+      "group": 4,
+      "n": 63,
+      "predicted_risk": 0.7838650403287324,
+      "observed_risk": 0.7780526351954924
+    }
+  ],
+  "Gradient-boosted trees": [
+    {
+      "group": 0,
+      "n": 63,
+      "predicted_risk": 0.05319493586911163,
+      "observed_risk": 0.03174603174603163
+    },
+    {
+      "group": 1,
+      "n": 62,
+      "predicted_risk": 0.08756975580343992,
+      "observed_risk": 0.09320260264772895
+    },
+    {
+      "group": 2,
+      "n": 62,
+      "predicted_risk": 0.16358518236552622,
+      "observed_risk": 0.09423986164944032
+    },
+    {
+      "group": 3,
+      "n": 62,
+      "predicted_risk": 0.44664109208805275,
+      "observed_risk": 0.4973868276726928
+    },
+    {
+      "group": 4,
+      "n": 63,
+      "predicted_risk": 0.8833436471596808,
+      "observed_risk": 0.7493734335839599
+    }
+  ],
+  "Random survival forest": [
+    {
+      "group": 0,
+      "n": 63,
+      "predicted_risk": 0.04141243162911553,
+      "observed_risk": 0.032006245120999144
+    },
+    {
+      "group": 1,
+      "n": 62,
+      "predicted_risk": 0.12027502366932774,
+      "observed_risk": 0.05877421758569312
+    },
+    {
+      "group": 2,
+      "n": 62,
+      "predicted_risk": 0.23727781184415747,
+      "observed_risk": 0.15316896072116637
+    },
+    {
+      "group": 3,
+      "n": 62,
+      "predicted_risk": 0.4178509884981899,
+      "observed_risk": 0.4196093701266298
+    },
+    {
+      "group": 4,
+      "n": 63,
+      "predicted_risk": 0.6601293202919682,
+      "observed_risk": 0.7919172932330827
+    }
+  ]
+}

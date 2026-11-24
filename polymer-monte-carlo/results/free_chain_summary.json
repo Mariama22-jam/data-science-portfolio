@@ -1,0 +1,15 @@
+{
+  "nu_with_correction_to_scaling": 0.5907754084559009,
+  "nu_with_correction_to_scaling_err": 0.006858050952643582,
+  "correction_amplitude_b": -0.09253787174021252,
+  "nu_from_R2": 0.5926602824780715,
+  "nu_from_R2_err": 0.0024231424597225713,
+  "nu_from_Rg2": 0.5947783040232428,
+  "nu_from_Rg2_err": 0.001449800499936336,
+  "nu_reference": 0.587597,
+  "fit_range_bonds": [
+    31,
+    511
+  ],
+  "quick_mode": false
+}
